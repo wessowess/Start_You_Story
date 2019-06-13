@@ -1,0 +1,344 @@
+/* TYPOS */
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./../typos/bebas_neue/BebasNeue-Regular.woff2') format('woff2'),
+        url('./../typos/bebas_neue/BebasNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'Avenir LT Std';
+    src: url('typos/avenir_lt_std/AvenirLTStd-LightOblique.woff2') format('woff2'),
+        url('typos/avenir_lt_std/AvenirLTStd-LightOblique.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('typos/avenir_lt_std/AvenirLTStd-BookOblique.woff2') format('woff2'),
+        url('typos/avenir_lt_std/AvenirLTStd-BookOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('typos/avenir_lt_std/AvenirLTStd-Light.woff2') format('woff2'),
+        url('typos/avenir_lt_std/AvenirLTStd-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('typos/avenir_lt_std/AvenirLTStd-Oblique.woff2') format('woff2'),
+        url('typos/avenir_lt_std/AvenirLTStd-Oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('typos/avenir_lt_std/AvenirLTStd-MediumOblique.woff2') format('woff2'),
+        url('typos/avenir_lt_std/AvenirLTStd-MediumOblique.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('typos/avenir_lt_std/AvenirLTStd-Roman.woff2') format('woff2'),
+        url('typos/avenir_lt_std/AvenirLTStd-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('typos/avenir_lt_std/AvenirLTStd-Book.woff2') format('woff2'),
+        url('typos/avenir_lt_std/AvenirLTStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('./../typos/avenir_lt_std/AvenirLTStd-Medium.woff2') format('woff2'),
+        url('./../typos/avenir_lt_std/AvenirLTStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/* PARAMETRES DE BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.wrapper {
+    width: 100%;
+}
+
+
+/*HEADER*/
+#header {
+    display: none;
+   /*   display: flex;
+      flex-direction: row;  */
+    text-align: center;
+    background-color: white;
+    /*padding: 15px;*/
+    width: 80%;
+    margin:auto;
+    /*background-color: pink; */
+}
+
+#logo-demmare-ta-story{
+	margin: 10px 0px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 0.3px;
+    color: #1B539A !important; 
+    padding: 0px 20px;
+}
+.collapse li a:hover{
+    color: white !important;
+    background-color: #CBCBCB;
+}
+.collapse li a{
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 0.3px;
+    color: #1B539A !important; 
+    padding: 0px 20px;
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(27,83,154) !important;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(27,83,154, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+/*CONTENU*/
+
+.titres{
+	font-family: "Bebas Neue", sans-serif;
+	letter-spacing: 0.3px;
+	padding: 25px;
+	font-size:2.3em;
+}
+
+.sous-titre{
+	font-family: "Bebas Neue", sans-serif;
+	letter-spacing: 0.3px;
+	font-size: 1.6em;
+	padding:10px 40px;
+}
+.titre-blanc{
+	color: white;
+}
+
+.titre-bleu{
+	color:#1B539A;
+}
+
+.texte-labeur{
+	font-family: "Avenir LT Std";
+	padding:10px 40px 25px 40px;
+	text-align: justify;
+}
+
+.texte-blanc{
+	color: white;
+}
+
+.texte-bleu{
+	color:#1B539A;
+}
+
+/*QUI SOMMES-NOUS ET MISSIONS*/
+.nousEtMission {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#quiSommesNous {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /* background: linear-gradient(to top left, #25BED5 15vh, #25BED5 10px); */
+    background-color: #1B539A;
+    width: 50%;
+    /*height: 300px;*/
+}
+
+.sections-text-block{
+	display: block;
+}
+
+#mission{
+    display: flex;
+    position: relative;
+    /* background: linear-gradient(to bottom right, #25BED5 14vh, #73DFF0 20px); */
+    background-color: #25BED5;
+    width: 50%;
+}
+
+/*PREPA*/
+#prepa{
+    display: none;
+    background-color: #73DFF0;
+   /*  height: 40vh; */
+    margin:35px 20px;
+}
+
+#image-centree{
+    width:100%;
+    text-align: center;
+}
+
+#seriousGame {
+    display: none;
+    background-color: #25BED5;
+    margin-bottom: 0px;
+    /* height: 15vh; */
+}
+
+#text-annonce{
+    margin-bottom: 0px;
+}
+
+#formDiv {
+    display: none;
+    background-color: #CBCBCB;
+}
+
+/* button id is toggle */
+#toggle {
+    margin-top: 0px;
+    width: 100%;
+    background-color: #CBCBCB;
+    border: none;
+    cursor: pointer;
+}
+
+#text-form:hover{
+    text-decoration: underline;
+}
+
+#footer-contain {
+    display: none;
+    background-color: #1B539A;
+    /* height: 15vh; */
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 10px;
+    /* color: white; */
+}
+
+#address{
+    margin:0px;
+    padding-left: 25px;
+    text-align: left;
+}
+
+#adresse-texte{
+    color:white;
+    text-decoration: none;
+}
+
+#adresse-texte:hover{
+    text-decoration: underline;
+}
+
+
+#logos{
+    display: inline-flex;
+    text-align: center;
+    margin-left:45%;
+    margin-top: 20px;
+}
+
+.socialNetworks {
+    width: 50px;
+}
+
+.errorMessage {
+    color: red;
+}
+
+/* RESPONSIVE IPAD */
+@media only screen and (max-width: 1024px) {
+    #logos{
+        margin-right: 5%;
+    }
+
+    #text-fb{
+        display: none;
+    }
+
+    #text-tw{
+        display: none;
+    }
+
+    #text-insta{
+        display: none;
+    }
+
+    #logo-tw{
+        padding-left: 15px;
+    }
+
+    #logo-insta{
+        padding-left: 15px;
+    }
+}
+
+/* RESPONSIVE PHONE */
+@media only screen and (max-width: 767px) {
+    .nousEtMission {
+        display: flex;
+        flex-direction: column-reverse;
+        /*justify-content: space-evenly;*/
+        width: 100%;
+    }
+
+    #quiSommesNous {
+        display: none;
+        /*height: 300px;*/
+        width: 100%;
+    }
+
+    #mission {
+        display: none;
+        /*height: 300px;*/
+        width: 100%;
+    }
+
+     #logos-partenaires{
+        width:100%;
+   } 
+
+    #footer-contain{
+        display: block;
+    }
+
+    #logos{
+        margin-left:40%;
+    }
+
+}
+
